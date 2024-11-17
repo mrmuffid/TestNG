@@ -1,0 +1,1 @@
+{"uuid":"ce667e76-2b2d-4864-b128-c093c0d45637","name":"TestNG.POM.loginTestHRM","children":["85cd7eb2-a7b2-4774-bf48-2e99fa3ee93f"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1731764546681,"stop":1731764561887}],"afters":[],"start":1731764546650,"stop":1731764574623}

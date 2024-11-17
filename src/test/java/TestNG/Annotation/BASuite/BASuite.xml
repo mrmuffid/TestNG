@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BASuite">
+    <test name="suite">
+        <classes>
+            <class name="TestNG.Annotation.BASuite.Suite"></class>
+            <class name="TestNG.Annotation.BASuite.BATest"></class>
+            <class name="TestNG.Annotation.BASuite.TC2"></class>
+            <class name="TestNG.Annotation.BASuite.TC1"></class>
+
+
+        </classes>
+    </test>
+
+    <test name="suitee">
+        <classes>
+
+            <class name="TestNG.Annotation.BASuite.TC1"></class>
+
+
+        </classes>
+    </test>
+
+
+
+</suite>

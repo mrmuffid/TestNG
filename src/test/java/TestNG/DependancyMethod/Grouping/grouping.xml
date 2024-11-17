@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Grouping">
+    <test name="GroupTest">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+                <exclude name="regration"></exclude>
+                <exclude name="FB"></exclude>
+            </run>
+        </groups>
+
+
+
+        <classes>
+            <class name="TestNG.DependancyMethod.Grouping.LoginTest"></class>
+            <class name="TestNG.DependancyMethod.Grouping.SignupTest"></class>
+            <class name="TestNG.DependancyMethod.Grouping.PaymentTest"></class>
+        </classes>
+    </test>
+</suite>

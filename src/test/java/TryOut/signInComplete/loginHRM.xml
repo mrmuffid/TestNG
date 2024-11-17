@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HRMlogin" parallel="tests" thread-count="5">
+
+    <test name="testOnChrome" >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TryOut.signInComplete.loginHRM"></class>
+        </classes>
+    </test>
+    <test name="testOnEdge" >
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="TryOut.signInComplete.loginHRM"></class>
+        </classes>
+    </test>
+    <test name="testOnFireFox" >
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="TryOut.signInComplete.loginHRM"></class>
+        </classes>
+    </test>
+
+
+
+
+</suite>

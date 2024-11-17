@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM">
+    <test name="testing OrangeHRM">
+        <classes>
+            <class name="TestNG.OrangeHRM"/>
+            <class name="TestNG.practice"></class>
+        </classes>
+    </test>
+</suite>
